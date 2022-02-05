@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jewesitn/public_html/
-    - /bin/cp /home/jewesitn/repository/cpanel/* $DEPLOYPATH
+    - /bin/cp /home/jewesitn/repository/portfolio* $DEPLOYPATH
