@@ -1,0 +1,31 @@
+.logo {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(7, 34, 39, 1) 0px,
+    rgba(7, 34, 39, 1) 10px,
+    rgba(53, 133, 139, 1) 10px,
+    rgba(53, 133, 139, 1) 20px,
+    rgba(79, 189, 186, 1) 20px,
+    rgba(65, 193, 198, 1) 30px,
+    rgba(174, 254, 255, 1) 30px,
+    rgba(174, 254, 255, 1) 40px
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  &:hover {
+    animation: 0.5s backgroundSwirl infinite linear;
+  }
+}
+
+@keyframes backgroundSwirl {
+  from {
+    background-position: 0 center;
+  }
+
+  to {
+    background-position: 120px center;
+  }
+}
