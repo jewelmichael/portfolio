@@ -1,25 +1,43 @@
-.logo {
-  font-family: "Quicksand", sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  background: repeating-linear-gradient(
-    -45deg,
-    rgba(7, 34, 39, 1) 0px,
-    rgba(7, 34, 39, 1) 10px,
-    rgba(53, 133, 139, 1) 10px,
-    rgba(53, 133, 139, 1) 20px,
-    rgba(79, 189, 186, 1) 20px,
-    rgba(65, 193, 198, 1) 30px,
-    rgba(174, 254, 255, 1) 30px,
-    rgba(174, 254, 255, 1) 40px
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  &:hover {
-    animation: 0.5s backgroundSwirl infinite linear;
+.header {
+  background-color: #fafdfd;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-family: "Quicksand", sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      background: repeating-linear-gradient(
+        -45deg,
+        rgba(7, 34, 39, 1) 0px,
+        rgba(7, 34, 39, 1) 10px,
+        rgba(53, 133, 139, 1) 10px,
+        rgba(53, 133, 139, 1) 20px,
+        rgba(79, 189, 186, 1) 20px,
+        rgba(65, 193, 198, 1) 30px,
+        rgba(174, 254, 255, 1) 30px,
+        rgba(174, 254, 255, 1) 40px
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      &:hover {
+        animation: 0.5s backgroundSwirl infinite linear;
+      }
+    }
+    .navContainer {
+      .navBlock {
+        display: inline-flex;
+        align-items: center;
+        .navItem {
+          font-weight: bold;
+          text-decoration: none;
+          padding: 20px 15px;
+        }
+      }
+    }
   }
 }
-
 @keyframes backgroundSwirl {
   from {
     background-position: 0 center;
