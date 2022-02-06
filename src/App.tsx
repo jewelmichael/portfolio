@@ -1,16 +1,26 @@
-import React from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import './Assets/Styles/style.scss';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import Layout from './Component/Layout/PageLayout/Layout';
-import About from './Pages/About/About';
-import Contact from './Pages/Contact/Contact';
-import Home from './Pages/Home/Home';
-import Work from './Pages/Works/Work';
+
+import Layout from "./Component/Layout/PageLayout/Layout";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Home from "./Pages/Home/Home";
+import Work from "./Pages/Works/Work";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <Router>
-      <Routes>
+    <BrowserRouter>
+      <AnimatedRoutes />
+    </BrowserRouter>
+  );
+}
+
+const AnimatedRoutes = () => {
+  const location = useLocation();
+  return (
+    <AnimatePresence exitBeforeEnter>
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -18,8 +28,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
-    </Router>
+    </AnimatePresence>
   );
-}
-
+};
 export default App;
+

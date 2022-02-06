@@ -1,11 +1,19 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { pageMotion } from "./Motions";
 
-function Content(props) {
+function Content(props: any) {
   return (
-    <div className="Content">
-      <div className="container">
+    <div className="container">
+      <motion.div
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={pageMotion}
+        className="content"
+      >
         {props.children}
-      </div>
+      </motion.div>
     </div>
   );
 }
