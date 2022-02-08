@@ -7,7 +7,7 @@ export const sideVariants = {
   closed: {
     height: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       staggerChildren: 0.2,
       when: "afterChildren",
       staggerDirection: -1
@@ -16,7 +16,7 @@ export const sideVariants = {
   open: {
     height: '100vh',
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       staggerChildren: 0.2,
       when: "beforeChildren",
       staggerDirection: 1
@@ -27,5 +27,7 @@ export const itemVariants = {
   closed: {
     opacity: 0
   },
-  open: { opacity: 1 }
+  open: {
+    opacity: 1
+  }
 };

@@ -1,0 +1,29 @@
+@import "../../Assets/Styles/variables";
+
+article.jumbotron {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 4rem;
+  min-height: 80vh;
+  justify-content: center;
+}
+
+.col {
+  flex: 1 0 320px;
+}
+
+span.subTitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: $primaryColorLight;
+}
+
+h1.pageTitle {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+span.coloredTitle {
+  color: $primaryColorLight;
+}
