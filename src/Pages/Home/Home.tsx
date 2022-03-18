@@ -13,7 +13,7 @@ function Home() {
               ease in usability experience is where I always put my effort on.
               You are welcome to roam around and check my networking profiles as well.</p>
             <p>"Have a great day ahead"</p>
-            <a href="#" target="_blank" rel="button" download>Download CV</a>
+            <a href="#" target="_blank" rel="button" className={s.btn}><i><img src={require('../../Assets/Images/ic-download.svg').default} /></i>Download CV</a>
           </div>
           <div className={s.col}></div>
         </article>
