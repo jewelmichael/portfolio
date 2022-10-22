@@ -26,3 +26,14 @@ a {
     color: $primaryColorDarker;
   }
 }
+
+p {
+  & + a {
+    margin-top: $spacer * 1.5;
+  }
+}
+
+img {
+  object-fit: contain;
+  height: auto;
+}

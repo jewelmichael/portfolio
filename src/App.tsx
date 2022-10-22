@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
 import Work from "./Pages/Works/Work";
 import { AnimatePresence } from "framer-motion";
+import React from "react";
 
 function App() {
   return (

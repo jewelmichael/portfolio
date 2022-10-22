@@ -1,16 +1,20 @@
 @import "../../Assets/Styles/variables";
 
+.Home {
+  padding: 2rem 0 3rem;
+}
 article.jumbotron {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding: 0 4rem;
+  // padding: 0 4rem;
   min-height: 80vh;
   justify-content: center;
+  flex-flow: column-reverse nowrap;
 }
 
 .col {
-  flex: 1 0 320px;
+  flex: 1 0 240px;
 }
 
 span.subTitle {
@@ -26,6 +30,27 @@ h1.pageTitle {
 
 span.coloredTitle {
   color: $primaryColorLight;
+}
+
+.personalPic {
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: 30% 30% 70% 10%;
+  margin: 2rem 0 3rem;
+  img {
+    width: 100%;
+  }
+  // &:before {
+  //   content: "";
+  //   z-index: -1;
+  //   height: 300px;
+  //   width: 300px;
+  //   display: block;
+  //   position: absolute;
+  //   box-shadow: inset 80px 40px 80px rgba(0, 0, 0, 0.5);
+  //   z-index: 1;
+  // }
 }
 
 .btn {
