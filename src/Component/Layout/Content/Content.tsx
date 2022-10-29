@@ -4,17 +4,15 @@ import { pageMotion } from "./Motions";
 
 function Content(props: any) {
   return (
-    <div className="container">
-      <motion.div
-        initial="initial"
-        animate="animate"
-        exit="exit"
-        variants={pageMotion}
-        className="content"
-      >
-        {props.children}
-      </motion.div>
-    </div>
+    <motion.div
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      variants={pageMotion}
+      className="content"
+    >
+      {props.children}
+    </motion.div>
   );
 }
 

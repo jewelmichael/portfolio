@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import s from "./Home.module.scss";
 
 function Home() {
@@ -22,6 +22,42 @@ function Home() {
             </div>
           </div>
         </article>
+      </section>
+      <section>
+
+        <article>
+          <div>
+            <div className={s.highlight_card}>
+              <div className={`${s.col1} ${s.darkest}`}>
+                <img src={require('../../Assets/Images/Icons/desktop.svg').default} alt="" />
+              </div>
+              <div className={s.col2}>
+                <div>Website Development</div>
+                <div>25</div>
+              </div>
+            </div>
+            <div className={s.highlight_card}>
+              <div className={`${s.col1} ${s.darker}`}>
+                <img src={require('../../Assets/Images/Icons/mobile.svg').default} alt="" />
+              </div>
+              <div className={s.col2}>
+                <div>Mobile Development</div>
+                <div>25</div>
+              </div>
+            </div>
+            <div className={s.highlight_card}>
+              <div className={`${s.col1} ${s.green}`}>
+                <img src={require('../../Assets/Images/Icons/badge.svg').default} alt="" />
+              </div>
+              <div className={s.col2}>
+                <div>Product Designing</div>
+                <div>25</div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </article>
+
       </section>
     </div>
   );
