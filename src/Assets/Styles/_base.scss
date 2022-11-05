@@ -5,6 +5,7 @@
 html,
 body {
   font: normal 400 18px/2 "Quicksand", sans-serif;
+  color: $fontColor;
 }
 
 * {
@@ -36,4 +37,45 @@ p {
 img {
   object-fit: contain;
   height: auto;
+}
+
+section {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h6 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
 }

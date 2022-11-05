@@ -1,8 +1,13 @@
 @import "../../Assets/Styles/variables";
 
 .Home {
-  padding: 2rem 0 3rem;
+  // padding: 2rem 0 3rem;
 }
+
+.banner {
+  padding: 0;
+}
+
 article.jumbotron {
   display: flex;
   flex-flow: row wrap;
@@ -22,12 +27,16 @@ article.jumbotron {
 span.subTitle {
   font-family: "Josefin Sans", sans-serif;
   color: $primaryColorLight;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 h1.pageTitle {
-  text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+  padding-bottom: 1rem;
 }
 
 span.coloredTitle {

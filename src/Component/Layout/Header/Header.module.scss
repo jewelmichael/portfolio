@@ -2,12 +2,14 @@
 
 .header {
   background-color: #fafdfd;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 0;
   .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0.7rem 0;
     .logo {
       font-family: "Josefin Sans", sans-serif;
       text-transform: lowercase;

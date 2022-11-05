@@ -25,7 +25,22 @@ function Home() {
       </section>
       <section>
 
-        <article>
+        <article className="container">
+          <div>
+            <h2>What do I help?</h2>
+            <p>I will help you with finging a solution and solve your problems, We use process design to create digital products.Besids that also help their business.</p>
+            <p>We use process design to create digital products. Besids that also help their business.</p>
+            <div>
+              <div>
+                <span>100+</span>
+                <span>Projects Completed</span>
+              </div>
+              <div>
+                <span>60+</span>
+                <span>Happy Clients</span>
+              </div>
+            </div>
+          </div>
           <div>
             <div className={s.highlight_card}>
               <div className={`${s.col1} ${s.darkest}`}>
@@ -55,7 +70,6 @@ function Home() {
               </div>
             </div>
           </div>
-          <div></div>
         </article>
 
       </section>
