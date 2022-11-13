@@ -1,5 +1,6 @@
 import React from 'react';
 import s from "./Home.module.scss";
+import NumberCard from "../../Component/NumberCard/NumberCard";
 
 function Home() {
 
@@ -31,14 +32,8 @@ function Home() {
             <p>I will help you with finging a solution and solve your problems, We use process design to create digital products.Besids that also help their business.</p>
             <p>We use process design to create digital products. Besids that also help their business.</p>
             <div>
-              <div>
-                <span>100+</span>
-                <span>Projects Completed</span>
-              </div>
-              <div>
-                <span>60+</span>
-                <span>Happy Clients</span>
-              </div>
+              <NumberCard count="100+" value="Projected Completed" />
+              <NumberCard count="60+" value="Happy Cliented" />
             </div>
           </div>
           <div>
