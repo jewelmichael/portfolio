@@ -68,6 +68,21 @@ function Home() {
         </article>
 
       </section>
+      <section className="colored">
+        <article className="container">
+          <h2>My Experience</h2>
+          <div className={s.Experience}>
+            <div className={s.Experience_Meta}>
+              <p className={s.Experience_MetaLocation}>Self-Employed, Brisbane</p>
+              <span className={s.Experience_MetaPeriod}>Sep 2016 - Aug 2014</span>
+            </div>
+            <div className={s.Experience_Details}>
+              <h3 className={s.Experience_DetailsDesignation}>Visual Designer</h3>
+              <p className={s.Experience_DetailsDescription}>A visual designer designs for a variety of platforms, which may include Internet and intranet sites, games, movies, kiosks and wearables. In short, they create the concepts.</p>
+            </div>
+          </div>
+        </article>
+      </section>
     </div>
   );
 }

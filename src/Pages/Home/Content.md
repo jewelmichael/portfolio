@@ -33,23 +33,25 @@ Brand Identity
 
 My Work Experience
 
-Self-Employed, Brisbane : Visual Designer
+Self-Employed, Brisbane
+Sep 2016 - Aug 2014 
 
-Sep 2016 - Aug 2014 A visual designer designs for a variety of platforms, which
+Visual Designer
+A visual designer designs for a variety of platforms, which may include Internet and intranet sites, games, movies, kiosks and wearables. In short, they create the concepts,
 
-may include Internet and intranet sites, games, movies,
+New Man Services 
+Jan 17 - Mar 2018
 
-kiosks and wearables. In short, they create the concepts,
+UI/UX Designer
+User interface design or user interface engineering is the I design of user interfaces for machines and software, such I as computers, home appliances, mobile devices.
 
-New Man Services \@> UI/UX Designer
+Global Solution 
+Feb 2019 - Mar 2020 
 
-Jan 17 - Mar 2018 : User interface design or user interface engineering is the
-I design of user interfaces for machines and software, such
-I as computers, home appliances, mobile devices.
+Sr. Product Designer
+Find Product Photography Canada. Large Selection. Always Sale. Cheap Prices. Full Offer. Save Online. Compare Online.
 
-Global Solution ©) Sr. Product Designer
-Feb 2019 - Mar 2020 Find Product Photography Canada. Large Selection. Always
-Sale. Cheap Prices. Full Offer. Save Online. Compare Online.
+---------------------
 
 Simple Search. The Best Price. Compare Simply.
 
